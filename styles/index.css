@@ -1,7 +1,3 @@
-a {
-  text-decoration: none;
-}
-
 nav,
 .header-list {
   display: flex;
@@ -16,6 +12,7 @@ nav {
   background-color: white;
   border-bottom: 0.5xpx solid lightgray;
   border-radius: 0.5rem;
+  background-color: red;
 }
 
 .header-list {
@@ -30,7 +27,7 @@ nav {
   align-items: flex-start;
   justify-content: flex-start;
   width: 100%;
-  height: 250rem;
+  height: 25rem;
   gap: 1rem;
 
   border: 1px solid lightgray;
@@ -41,4 +38,15 @@ nav {
     width: 50%;
     text-align: center;
   }
+}
+
+.carousel-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+}
+
+.red {
+  color: red;
 }
