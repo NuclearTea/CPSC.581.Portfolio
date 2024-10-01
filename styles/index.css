@@ -12,7 +12,15 @@ nav {
   background-color: white;
   border-bottom: 0.5xpx solid lightgray;
   border-radius: 0.5rem;
-  background-color: red;
+
+  ul {
+    li {
+      a {
+        text-decoration: none;
+        color: black;
+      }
+    }
+  }
 }
 
 .header-list {
@@ -40,6 +48,20 @@ nav {
   }
 }
 
+.Assignment1 {
+  a {
+    text-decoration: none;
+    color: black;
+    h1 {
+      border: 1px solid lightgray;
+      border-radius: 0.5rem;
+      &:hover {
+        background-color: lightgray;
+      }
+    }
+  }
+}
+
 .carousel-buttons {
   display: flex;
   justify-content: space-between;
@@ -47,6 +69,13 @@ nav {
   width: 50%;
 }
 
-.red {
-  color: red;
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: lightgray;
+  color: white;
+}
+
+.carousel-control-next-icon:hover,
+.carousel-control-prev-icon:hover {
+  background-color: gray;
 }
