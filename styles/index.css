@@ -96,3 +96,7 @@ nav {
 .carousel-control-prev-icon:hover {
   background-color: gray;
 }
+
+.A2-Description-Image {
+  border-radius: 2rem;
+}
