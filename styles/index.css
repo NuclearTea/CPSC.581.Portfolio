@@ -1,3 +1,19 @@
+p {
+  font-size: 1.5rem;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
 nav,
 .header-list {
   display: flex;
@@ -48,7 +64,7 @@ nav {
   }
 }
 
-.Assignment1 {
+.AssignmentSection {
   a {
     text-decoration: none;
     color: black;
@@ -60,6 +76,7 @@ nav {
       }
     }
   }
+  margin-bottom: 5rem;
 }
 
 .carousel-buttons {
