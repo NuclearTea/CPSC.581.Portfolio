@@ -7,3 +7,19 @@ body {
 html {
   scroll-behavior: smooth;
 }
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.centre-align {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
