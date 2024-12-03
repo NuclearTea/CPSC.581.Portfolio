@@ -70,17 +70,33 @@ h3 {
   transform: rotate(270deg);
 }
 
+.A2-Description {
+  margin: 1rem;
+
+  gap: 2rem;
+  .column {
+    width: 50%;
+  }
+}
 .A2-Description-Image {
   border-radius: 2rem;
+}
+
+.A2-Security {
+  margin: 1rem;
+
+  gap: 2rem;
+  .column {
+    width: 50%;
+  }
 }
 
 .image-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   /* Flexible grid with minimum column width of 200px */
-  gap: 16px;
+  gap: 2.5rem;
   /* Space between images */
-  padding: 16px;
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -126,4 +142,22 @@ h3 {
 
 .storyboard {
   width: 100%;
+}
+
+.columns-with-borders {
+  border: 1px black solid;
+  /* background: green; */
+  width: 80%;
+}
+
+.columns-with-borders .column:not(:last-child) {
+  border-right: 1px solid black;
+}
+
+.columns-with-borders .column:first-child {
+  /* background: red; */
+  border-radius: 1rem 0 0 1rem;
+}
+.columns-with-borders .column:last-child {
+  border-radius: 0 1rem 1rem 0;
 }
