@@ -1,0 +1,33 @@
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  /* Flexible grid with minimum column width of 200px */
+  gap: 2.5rem;
+  /* Space between images */
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.image-grid img {
+  width: 50%;
+  height: auto;
+  border-radius: 8px;
+  /* Optional: rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  /* Optional: shadow for depth */
+  transition: transform 0.3s ease;
+  /* Optional: smooth hover effect */
+  object-fit: cover;
+  /* Ensure the image doesn't stretch */
+  display: block;
+  /* Ensure no inline space */
+}
+
+/* Hover effect */
+.image-grid img:hover {
+  transform: scale(2.5);
+  /* Optional: zoom effect on hover */
+}
+.image-grid img.rotate-img:hover {
+  transform: scale(2.5) rotate(270deg);
+}

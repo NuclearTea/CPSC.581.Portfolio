@@ -1,0 +1,13 @@
+.carousel-img-container,
+.carousel-img-container-row,
+.carousel-img-container-column {
+  width: 50%;
+  height: 50%;
+
+  img {
+    border-radius: 1rem;
+  }
+}
+.carousel-text-container {
+  width: 50%;
+}

@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Assignment 2</title>
+
+    <link rel="stylesheet" href="styles/global.css" />
+    <link rel="stylesheet" href="styles/navigation.css" />
+    <link rel="stylesheet" href="styles/index.css" />
+    <link rel="stylesheet" href="styles/hover_grid.css" />
+    <link rel="stylesheet" href="styles/carousel.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.18.0/cdn/themes/light.css"
+    />
+    <script
+      type="module"
+      src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.18.0/cdn/shoelace-autoloader.js"
+    ></script>
+  </head>
+  <body>
+    <section>
+      <nav id="navigation">
+        <h1>Muhammad Ali</h1>
+        <div>
+          <ul class="header-list">
+            <li>
+              <a
+                class="header-list-item"
+                rel="noopener noreferrer"
+                href="#about"
+              >
+                About
+              </a>
+            </li>
+            <li>
+              <a
+                class="header-list-item"
+                rel="noopener noreferrer"
+                href="#Assignment1"
+              >
+                Micheal's Gallery
+              </a>
+            </li>
+
+            <li>
+              <a
+                class="header-list-item"
+                rel="noopener noreferrer"
+                href="#Assignment2"
+              >
+                Bop-It
+              </a>
+            </li>
+            <li>
+              <a
+                class="header-list-item"
+                rel="noopener noreferrer"
+                href="#Proxemics"
+              >
+                Proxemic Synth
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </section>
+    <main>
+      <section id="Assignment2" class="AssignmentSection centre-align">
+        <a
+          rel="noopener noreferrer"
+          target="_blank"
+          href="https://dust-ash-cello.glitch.me"
+          class="centre-align"
+        >
+          <h1>Bop It</h1>
+        </a>
+        <div class="row A2-Description">
+          <div class="column">
+            <h3>Description</h3>
+            <p>
+              When tasked to create a novel way of unlocking our phones, what
+              better place to take inspiration from than childhood nostalgia.
+              Presenting the Bop It unlock method. Using some shakes, twists,
+              pulls and bops, you can unlock your phone in a secure manner, with
+              the authentic sound of the original.
+            </p>
+          </div>
+          <div class="column">
+            <img
+              class="A2-Description-Image"
+              src="assets/A2 Description Image.png"
+            />
+          </div>
+        </div>
+
+        <h3>Security</h3>
+        <div class="row A2-Security">
+          <div class="column">
+            <p>
+              In terms of its security, I would say that having a password that
+              is at least like 6 motions long would be ideal as otherwise, it
+              would be really easy to break in. Additionally, we do have sounds
+              though, for highest security it would be better to turn the sound
+              off so that others would not be able to hear it.
+            </p>
+          </div>
+          <div class="column">
+            <p>
+              Accidental unlocks would pretty much be impossible with this
+              approach as it requires a non-random complete set of movements to
+              approve the password and fails otherwise.
+            </p>
+          </div>
+        </div>
+        <!-- <h3>Initial Sketches</h3> -->
+        <sl-carousel
+          pagination
+          navigation
+          mouse-dragging
+          loop
+          class="scroll-hint row"
+          style="--scroll-hint: 5%"
+        >
+          <sl-carousel-item>
+            <h2>
+              The following are some initial sketches that show some of the
+              inspiration for this idea.
+            </h2>
+            <span>(Swipe to see)</span>
+          </sl-carousel-item>
+          <sl-carousel-item class="column">
+            <div class="carousel-img-container-row">
+              <img
+                width="100%"
+                src="assets/A2 Initial Sketches/Initial Sketch 1.jpg"
+              />
+            </div>
+            <div class="column carousel-text-container">
+              <h3>Sketch 1</h3>
+              <p>
+                This is the most basic idea which pretty much everyone had which
+                was: "track the movements of the phone and make that your
+                password.". This idea is the base of 'Bop-It unlock method',
+                which really constrains the movements into 4 distinct
+                categories.
+              </p>
+            </div>
+          </sl-carousel-item>
+          <sl-carousel-item class="column">
+            <div class="carousel-img-container-row">
+              <img
+                height="100%"
+                src="assets/A2 Initial Sketches/Initial Sketch 4.jpg"
+              />
+            </div>
+            <div class="column carousel-text-container">
+              <h3>Sketch 4</h3>
+              <p>
+                This was to create an adapter which could enter the charging
+                port and the adapter had a key slot for a physical key. The user
+                would need to use the adapter and insert the correct key to
+                unlock their phone.
+              </p>
+            </div>
+          </sl-carousel-item>
+          <sl-carousel-item class="column">
+            <div class="carousel-img-container-row">
+              <img
+                height="100%"
+                src="assets/A2 Initial Sketches/Initial Sketch 7.jpg"
+              />
+            </div>
+            <div class="column carousel-text-container">
+              <h3>Sketch 7</h3>
+              <p>
+                This image is quite important as it was chosen to be one of the
+                refined sketches. It describes using the peripherals of our
+                reach and body proportions to unlock our phones. I thought this
+                was a good idea because it uses our unique combination of body
+                proportions to unlock our phones, making it quite safe and easy.
+              </p>
+            </div>
+          </sl-carousel-item>
+          <sl-carousel-item class="column">
+            <div class="carousel-img-container-row">
+              <img
+                width="100%"
+                src="assets/A2 Initial Sketches/Initial Sketch 9.jpg"
+              />
+            </div>
+            <div class="column carousel-text-container">
+              <h3>Sketch 9</h3>
+              <p>
+                This plays with the idea of having a specific, limited amount of
+                movements that are well defined to unlock our phones. It simple
+                describes a juggle routine which would be mapped by the user on
+                the setup of the lock.
+              </p>
+            </div>
+          </sl-carousel-item>
+        </sl-carousel>
+        <div style="height: 5rem"></div>
+        <h2>Refined Sketches</h2>
+
+        <div style="height: 5rem"></div>
+        <h3>
+          After all of our initial sketches, we decided to refine 3 of them.
+          Those 3 were:
+        </h3>
+
+        <div class="image-grid">
+          <div class="column">
+            <img
+              src="assets/A2 Initial Sketches/Hima Initial Sketch.jpg"
+              alt="A3 Proxemics Himas Initial Sketch 1"
+            />
+            <p>
+              Tilt your phone game to unlock your phone (original idea from
+              Hima)
+            </p>
+          </div>
+          <div class="column">
+            <img
+              src="assets/A2 Initial Sketches/Alan Initial Sketch.jpg"
+              alt="A3 Proxemics Alans Initial Sketch "
+            />
+            <p>
+              Using AR (Augmented Reality) and a map to find something notable
+              and unique to unlock your phone (original idea from Alan)
+            </p>
+          </div>
+          <div class="column">
+            <img
+              src="assets/A2 Initial Sketches/Initial Sketch 7.jpg"
+              alt="A3 Proxemics Initial Sketch 7"
+            />
+            <p>Using Body Proportions to unlock your phone (my idea)</p>
+          </div>
+        </div>
+
+        <h2>Video Demo</h2>
+        <iframe
+          width="560"
+          height="315"
+          src="https://youtube.com/embed/pnBhpXaoTQU?feature=share"
+          frameborder="0"
+          allowfullscreen
+        >
+        </iframe>
+
+        <h3>Reflection</h3>
+        <p>
+          I wanted to add some more things because I think our project is a bit
+          simple conceptually but I like the fact that we all used on childhood
+          nostalgia to create this. Even though it may be a bit simplistic, it
+          comes from a place thats rooted in our experiences and think that
+          gives the idea more substance. Additionally, I would have liked to add
+          more things to make it more thematic, but combining a lock screen with
+          a Bop-It is not the easiest thing to do.
+        </p>
+        <p>
+          In terms of the development of the idea, it was something that Alan
+          and I came up with while sharing our sketches. I think we all had some
+          cool ideas in our refined sketches, but they also seemed difficult to
+          implement well. Considering the amount of time it took us to calibrate
+          this, I'm glad we went with the simple option.
+        </p>
+        <a
+          class="btn btn-primary"
+          href="https://glitch.com/edit/#!/dust-ash-cello"
+          referrerpolicy="no-referrer"
+          target="_blank"
+        >
+          <h3>Source Code</h3>
+        </a>
+      </section>
+    </main>
+  </body>
+</html>
