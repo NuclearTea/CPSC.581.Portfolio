@@ -4,6 +4,9 @@ nav,
 }
 
 nav {
+  padding-left: 1rem;
+  padding-right: 1rem;
+
   justify-content: space-between;
   align-items: center;
   position: sticky;
@@ -12,7 +15,6 @@ nav {
   background-color: white;
   border-bottom: 1px solid lightgray;
   height: 4.5rem;
-
   a {
     text-decoration: none;
     color: black;
