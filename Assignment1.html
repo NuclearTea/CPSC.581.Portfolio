@@ -1,0 +1,333 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" />
+    <title>Assignment 1</title>
+    <link rel="stylesheet" href="styles/global.css" />
+    <link rel="stylesheet" href="styles/navigation.css" />
+    <link rel="stylesheet" href="styles/index.css" />
+    <link rel="stylesheet" href="styles/hover_grid.css" />
+    <link rel="stylesheet" href="styles/carousel.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.18.0/cdn/themes/light.css"
+    />
+    <script
+      type="module"
+      src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.18.0/cdn/shoelace-autoloader.js"
+    ></script>
+  </head>
+  <body>
+    <nav id="navigation">
+      <a href="index.html">
+        <h1>Muhammad Ali</h1>
+      </a>
+      <div>
+        <ul class="header-list">
+          <li>
+            <a class="header-list-item" rel="noopener noreferrer" href="#about">
+              About
+            </a>
+          </li>
+          <li>
+            <a
+              class="header-list-item"
+              rel="noopener noreferrer"
+              href="#Assignment1"
+            >
+              Micheal's Gallery
+            </a>
+          </li>
+
+          <li>
+            <a
+              class="header-list-item"
+              rel="noopener noreferrer"
+              href="#Assignment2"
+            >
+              Bop-It
+            </a>
+          </li>
+          <li>
+            <a
+              class="header-list-item"
+              rel="noopener noreferrer"
+              href="#Proxemics"
+            >
+              Proxemic Synth
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <main>
+      <section
+        id="Assignment1"
+        class="AssignmentSection container centre-align"
+      >
+        <a
+          rel="noopener noreferrer"
+          target="_blank"
+          href="https://nucleartea.github.io/CPSC581A1/"
+        >
+          <h1>Michael's Gallery</h1>
+        </a>
+
+        <div class="row">
+          <div class="column">
+            <h3>Description</h3>
+
+            <p>
+              Imagine you had 30 seconds to learn about Michael. Gain the
+              opportunity to take snapshots of his hand-drawn images which
+              contain nuggets of his life and interests. Inspect the snapshots
+              you take and try as many times as you want. You won't be able to
+              catch everything the first time!
+            </p>
+          </div>
+          <div class="column">
+            <h3>Initial Sketches</h3>
+
+            <p>
+              The following are some of my initial sketches (10 in total). They
+              are a variety of different types of websites that attempt to
+              highlight different aspects of Michael. In a sense, they are also
+              a reflection, of my own journey on learning about Michael, his
+              interests, his likes/dislikes and his overall lifestyle. In my
+              initial meeting, I attempted to jot down the things that were
+              important to Michael by asking about where he spends most of his
+              time. In addition, I asked about fond memories he had and things
+              he liked to do as a child. They vary from games to simple
+              "discover something about Michael".
+            </p>
+          </div>
+        </div>
+
+        <!-- Initial Sketches Carousel -->
+
+        <sl-carousel
+          pagination
+          navigation
+          mouse-dragging
+          loop
+          class="scroll-hint row"
+          style="--scroll-hint: 5%"
+        >
+          <sl-carousel-item class="column">
+            <div class="carousel-img-container-row">
+              <img
+                width="100%"
+                src="assets/A1 Initial Sketches/A1 Initial Sketch 1.jpg"
+              />
+            </div>
+            <div class="column carousel-text-container">
+              <h3>Sketch 1</h3>
+              <p>
+                The idea with this is that it was a discovery game where we
+                would go on the journey to discover Michael's interests, similar
+                to how I went a journey to discover his interests.
+              </p>
+            </div>
+            <!-- </div> -->
+          </sl-carousel-item>
+          <sl-carousel-item class="row center-align">
+            <div class="carousel-img-container">
+              <img
+                width="75%"
+                src="assets/A1 Initial Sketches/A1 Initial Sketch 2.jpg"
+              />
+            </div>
+
+            <div class="column carousel-text-container">
+              <h3>Initial Sketch 2</h3>
+              <p>
+                This introduces the use of a crosshair because I learned that
+                Micheal likes photography. This is an important feature as this
+                is something that we used in our final design. The user would be
+                able to use the crosshair to move around and select different
+                areas like music or books and learn about his favourites. This
+                is also important as this idea is present in 1 of Michael's
+                final drawings.
+              </p>
+            </div>
+          </sl-carousel-item>
+
+          <sl-carousel-item class="row centre-align">
+            <div class="carousel-img-container">
+              <img
+                width="75%"
+                src="assets/A1 Initial Sketches/A1 Initial Sketch 6.jpg"
+              />
+            </div>
+            <div class="column carousel-text-container">
+              <h3>Initial Sketches 5/6</h3>
+              <p>
+                The top sketch highlights his room (which is dirty because
+                Michael said he often procrastinates) and upon cleaning it, we
+                learn about his favourite albums. This is idea is reflected in 2
+                of his hand-drawn images, one featuring his room, and the other
+                featuring his favourite albums.
+              </p>
+            </div>
+          </sl-carousel-item>
+          <sl-carousel-item class="row centre-align">
+            <div class="carousel-img-container">
+              <img
+                width="75%"
+                src="assets/A1 Initial Sketches/A1 Initial Sketch 7.jpg"
+              />
+            </div>
+            <div class="column carousel-text-container">
+              <h3>Initial Sketch 9/10</h3>
+              <p>
+                The top sketch is a drawing tool which would highlight Michael's
+                interest of drawing.
+              </p>
+              <p>
+                The bottom sketch is a game which allowed the user to select
+                multiple options which would increase or decrease his happy
+                level vs energy level. This became one of the ideas which we
+                decided to refine.
+              </p>
+            </div>
+          </sl-carousel-item>
+        </sl-carousel>
+
+        <!-- A1 Refined Sketches -->
+        <h3>Refined Sketches</h3>
+        <p>
+          The following are refined sketches where we looked at all of our
+          initial chosen where a combination of ideas that we all had which
+          where a sketches (30) and then picked 2 ideas to focus and refine. The
+          ideas picture taking app are related to the picture taking
+          application.
+        </p>
+
+        <div class="image-grid" style="gap: 10rem">
+          <div class="column centre-align">
+            <img
+              class="rotate-img"
+              src="assets/A1 Refined Sketches/A1 Refined Sketch 5.jpg"
+              alt="A3 Proxemics Initial Sketch 5"
+            />
+            <h3>Refined Sketch 5</h3>
+            <p>
+              The user would take pictures which would take you to special games
+              that were things that Michael liked to do like rock climbing or
+              walking in nature and store them in video experience galleries.
+              This seemed a bit much storing the videos.
+            </p>
+          </div>
+
+          <div class="column centre-align">
+            <img
+              class="rotate-img"
+              src="assets/A1 Refined Sketches/A1 Refined Sketch 7.jpg"
+              alt="A3 Proxemics Initial Sketch 7"
+            />
+
+            <h3>Refined Sketch 7</h3>
+            <p>
+              This was an idea which would allow the user to select some of
+              Michael's favourite albums, and depending on how they made Michael
+              feel, they would go to a snapshot taking mode where you could
+              create a gallery of the background while the album played in the
+              background.
+            </p>
+          </div>
+
+          <div class="column centre-align">
+            <img
+              class="rotate-img"
+              src="assets/A1 Refined Sketches/A1 Refined Sketch 8.jpg"
+              alt="A3 Proxemics Initial Sketch 8"
+            />
+            <h3>Refined Sketch 8</h3>
+            <p>
+              This played of the idea of a gallery but rather than be albums, or
+              nature, it was a table with his favourite food. This became one of
+              the drawings that Michael eventually made.
+            </p>
+          </div>
+
+          <div class="column centre-align">
+            <img
+              class="rotate-img"
+              src="assets/A1 Refined Sketches/A1 Refined Sketch 9.jpg"
+              alt="A3 Proxemics Initial Sketch 9"
+            />
+
+            <h3>Refined Sketch 9</h3>
+            <p>
+              This was an idea which allowed the user to take snapshots of his
+              room which had different posters of what he liked like retro games
+              (Mario, Final Fantasy, etc.)
+            </p>
+          </div>
+
+          <div class="column centre-align">
+            <img
+              class="rotate-img"
+              src="assets/A1 Refined Sketches/A1 Refined Sketch 10.jpg"
+              alt="A3 Proxemics Initial Sketch 10"
+            />
+
+            <h3>Refined Sketch 10</h3>
+            <p>
+              This was the similar idea of a gallery but with a timer, I got
+              this as inspiration from another team mate (Erich I believe).
+            </p>
+          </div>
+        </div>
+        (hover over the images to zoom)
+
+        <h3>Video Demo</h3>
+        <iframe
+          width="560"
+          height="315"
+          src="https://youtube.com/embed/7NtI1x7vS64?feature=share"
+          frameborder="0"
+          allowfullscreen
+        >
+        </iframe>
+        <h3>Reflection</h3>
+        <p>
+          I was very pleased with the outcome of this assignment. I learnt a lot
+          about the design process and I personally found the amount of
+          sketching really valuable though quite difficult. I thought our idea
+          reflected the personality of Michael in both obvious and subtle ways
+          which was something that I was aiming for from the beginning. It
+          really helps that Michael can draw!
+        </p>
+        <p>
+          I personally came up with some ideas regarding the photography and the
+          gallery. I'm not necessarily sure who actually came up with the idea
+          as we kind of talked and shared our ideas before all 10 sketches were
+          finished and we influenced each other but I really like that we did
+          that as it allowed me to gain different ideas and learn even more
+          things about Michael. I also helped with development of the app.
+        </p>
+
+        <p>
+          Our process in deciding what we chose was just going through the
+          ideas, picking apart what was similar and different as well as taking
+          into consideration the difficulty of implementation. Overall, I am
+          happy with the direction we went!
+        </p>
+
+        <button>
+          <a
+            href="https://github.com/NuclearTea/CPSC.581.Portfolio"
+            referrerpolicy="no-referrer"
+            target="_blank"
+          >
+            <h3>Source Code</h3>
+          </a>
+        </button>
+      </section>
+    </main>
+  </body>
+</html>
