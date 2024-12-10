@@ -33,24 +33,6 @@ h3 {
   width: 50%;
 }
 
-.AssignmentSection {
-  a {
-    text-decoration: none;
-    color: black;
-
-    h1 {
-      border: 1px solid lightgray;
-      border-radius: 0.5rem;
-
-      &:hover {
-        background-color: lightgray;
-      }
-    }
-  }
-
-  margin-bottom: 5rem;
-}
-
 .carousel-img-container,
 .carousel-img-container-row,
 .carousel-img-container-column {
